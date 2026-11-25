@@ -6,7 +6,7 @@ scripts/     run_generation.sh
 data/        (created)
 plots/       (created)
 logs/        (created)
-tmva/        (created)
+tmva/        machine learning script and output
   plots/     (created)
 ```
 
