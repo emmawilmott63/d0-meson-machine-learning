@@ -30,7 +30,7 @@ Create a ROOT TTree with K-Pi pair candidates.
 ```
 make candidates 
 # or 
-./buildtree_jetbins data/d0_inc_5_100.root
+./buildtree data/d0_inc_5_100.root
 ```
 Output: `data/candidates_inc_5_100.root`
 
@@ -38,7 +38,7 @@ Create a ROOT TTree with only opposite-charge K-Pi pair candidates.
 ```
 make candidates-os
 # or 
-./buildtree_jetbins_os data/d0_inc_5_100.root
+./buildtree_os data/d0_inc_5_100.root
 ```
 Output: `data/candidates_os_inc_5_100.root`
 
@@ -67,4 +67,9 @@ make train-bdt-jetbins
 root -l -b -q 'train_bdt_jetbins.C("data/candidates_inc_5_100.root","tmva")'
 # or (opposite-charge candidates only)
 root -l -b -q 'train_bdt_jetbins.C("data/candidates_os_inc_5_100.root","tmva")'
+```
+
+Plot BDT results
+```
+root -l -q 'tmva/plot_bdt.C()'
 ```
