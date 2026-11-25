@@ -46,11 +46,13 @@ Output: `data/candidates_os_inc_5_100.root`
 Plot the TTree candidate distribution for each recorded feature.
 ```
 make features-plots
+# or 
 ./features_jetbins data/candidates_inc_5_100.root
 ```
 
 ```
 make features-plots-os
+# or 
 ./features_jetbins_os data/candidates_os_inc_5_100.root
 ```
 
