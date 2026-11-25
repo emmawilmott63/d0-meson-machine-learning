@@ -2,3 +2,9 @@ data/
 logs/
 plots/
 tmva/plots/
+tmva/BDT_inclusive_jetPt1_20.root
+tmva/BDT_inclusive_jetPt20_30.root
+tmva/BDT_inclusive_jetPt30plus.root
+tmva/BDT_OS_jetPt1_20.root
+tmva/BDT_OS_jetPt20_30.root
+tmva/BDT_OS_jetPt30plus.root
