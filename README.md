@@ -14,7 +14,6 @@ tmva/        machine learning script and output
 
 ```
 make       # build programs (same as make all)
-make all   # build programs 
 make clean # delete programs
 ```
 ### Run Individual Programs
